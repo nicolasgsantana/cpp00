@@ -5,7 +5,7 @@ SRC = megaphone.cpp
 
 all: $(NAME)
 
-$(NAME): 
+$(NAME): $(SRC)
 	$(CC) $(CFLAGS) $(SRC) -o $(NAME)
 
 clean:
