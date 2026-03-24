@@ -6,7 +6,7 @@
 /*   By: nde-sant <nde-sant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/24 17:30:54 by nde-sant          #+#    #+#             */
-/*   Updated: 2026/03/24 18:12:22 by nde-sant         ###   ########.fr       */
+/*   Updated: 2026/03/24 18:23:59 by nde-sant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 int	main(int argc, char **argv)
 {
-	std::string str;
+	std::string	str;
 
 	if (argc < 2)
 		str = "* LOUD AND UNBEARABLE FEEDBACK NOISE *";
