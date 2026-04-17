@@ -8,6 +8,7 @@ INCLUDES = -I$(INC_DIR)
 
 SRC = $(addprefix src/,	Main.cpp \
 						PhoneBook.cpp \
+						Contact.cpp \
 						)
 HEADER = $(addprefix inc/,	Contact.hpp \
 							PhoneBook.hpp \

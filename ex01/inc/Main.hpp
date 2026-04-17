@@ -10,5 +10,6 @@
 #define SEARCH_MSG "SEARCH - display a specific contact"
 #define EXIT_MSG   "EXIT   - exit the program"
 #define INPUT_MSG  "Enter your option: "
+#define EMPTY_WARNING "Field can't be empty"
 
 #endif
