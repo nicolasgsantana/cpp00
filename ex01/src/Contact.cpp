@@ -16,19 +16,19 @@ int	Contact::SetParam(e_param param, std::string value)
 	switch (param)
 	{
 		case FIRST_NAME:
-			this->firstName = value;
+			this->m_firstName = value;
 			break;
 		case LAST_NAME:
-			this->lastName = value;
+			this->m_lastName = value;
 			break;
 		case NICKNAME:
-			this->nickname = value;
+			this->m_nickname = value;
 			break;
 		case PHONE:
-			this->phoneNumber = value;
+			this->m_phoneNumber = value;
 			break;
 		case SECRET:
-			this->darkestSecret = value;
+			this->m_darkestSecret = value;
 			break;
 		default:
 			return (1);
