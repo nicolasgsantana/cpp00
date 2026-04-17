@@ -21,8 +21,11 @@ public:
 		SECRET,
 		SIZE
 	};
+
 	static const std::string s_fieldName[SIZE];
-	int	SetParam(e_param param, std::string value);
+
+	int			SetParam(e_param param, std::string value);
+	std::string	GetParam(e_param param);
 };
 
 #endif

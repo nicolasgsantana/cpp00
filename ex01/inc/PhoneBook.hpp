@@ -10,8 +10,10 @@ private:
 	Contact	m_contacts[8];
 	int		m_contactCount;
 public:
-	PhoneBook();
-	void	AddContact(Contact new_contact);
+	PhoneBook(void);
+	void	AddContact(Contact newContact);
+	Contact	GetContact(int index);
+	int		GetContactCount(void);
 };
 
 #endif

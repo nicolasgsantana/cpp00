@@ -35,3 +35,22 @@ int	Contact::SetParam(e_param param, std::string value)
 	}
 	return (0);
 }
+
+std::string	Contact::GetParam(e_param param)
+{
+	switch (param)
+	{
+		case FIRST_NAME:
+			return (this->m_firstName);
+		case LAST_NAME:
+			return (this->m_lastName);
+		case NICKNAME:
+			return (this->m_nickname);
+		case PHONE:
+			return (this->m_phoneNumber);
+		case SECRET:
+			return (this->m_darkestSecret);
+		default:
+			return (NULL);
+	}
+}

@@ -4,6 +4,7 @@
 #include "PhoneBook.hpp"
 #include <iostream>
 #include <iomanip>
+#include <cstdlib>
 
 #define HEADER     "============= PHONEBOOK 85 ============="
 #define ADD_MSG    "ADD    - save a new contact"
@@ -11,5 +12,7 @@
 #define EXIT_MSG   "EXIT   - exit the program"
 #define INPUT_MSG  "Enter your option: "
 #define EMPTY_WARNING "Field can't be empty"
+#define INDEX_WARNING "Invalid Index"
+#define COL_WIDTH 10;
 
 #endif
